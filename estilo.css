@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Text+Me+One');
+@import url('https://fonts.googleapis.com/css?family=Chakra+Petch');
+
+body { background-color: #294891; }
+
+.box {
+  width: 90%;
+  height: 70%;
+  background-color: #7795C7; 
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 5px;
+  box-shadow: 3px 4px 2px rgba(1,1,1, .5);
+}
+.img-logo {
+	width: 160px;
+	margin: 0 auto; }
+
+.titulo-inicial { font-family: Text Me One; text-align: center; font-size: 1.7em; letter-spacing: 2.9px; color: #E3F0FA; text-shadow: 1px 2px 1px rgba(0,0,0, .4) }
+.sub-titulos { font-family: Chakra Petch; font-size: 1.3em; letter-spacing: 2px; font-weight: 700}
+.btn-config { background-color: #294891; color: rgba(255,255,255, .6); text-shadow: 1px 1px 1px rgba(0,0,0, .8) }
+
+@keyframes digit {
+	0% {
+		opacity: 1;
+	}
+
+	25% {
+		opacity: 0;
+	}
+
+	50% {
+		opacity: 1;
+	}
+	
+	100% {
+		opacity: 0;
+	}
+
+}
+
+
+.teste { 
+	animation: digit;
+	animation-duration: .7s;
+	transition: .5s infinit;
+
+ }
+
+ .unig h4 { color: #294891; }
+
+
